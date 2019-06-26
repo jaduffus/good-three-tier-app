@@ -1,12 +1,12 @@
 ---
 # Initial, common, system setup steps
 
-- name: Reverse the enabling of sudo without tty for some ansible commands
-  replace:
-    path:       /etc/sudoers
-    regexp:     'Defaults\s*!requiretty'
-    replace:    '^Defaults requiretty'
-    backup:     yes
+#- name: Reverse the enabling of sudo without tty for some ansible commands
+#  replace:
+#    path:       /etc/sudoers
+#    regexp:     'Defaults\s*!requiretty'
+#    replace:    '^Defaults requiretty'
+#    backup:     yes
 
 - name: Disable repos
   template:
