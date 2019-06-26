@@ -18,8 +18,4 @@
   yum:
     name:       "{{ yum_packages }}"
     state:      present
-  vars:
-    yum_packages:
-    - httpie
-    - python-pip
 ...
