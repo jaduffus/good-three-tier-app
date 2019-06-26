@@ -26,7 +26,7 @@
   vars:
     postgresql_databases:
       - name: example_db
-      - awx  
+      - awx
     postgresql_users:
       - name: example_user
         password: supersecure
