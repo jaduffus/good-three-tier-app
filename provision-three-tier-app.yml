@@ -13,6 +13,7 @@
 
 - name: Setup app tier
   hosts: apps
+  gather_facts: false
   tags:
     - apps
 
