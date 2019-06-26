@@ -1,0 +1,5 @@
+---
+yum_packages:
+  - httpie
+  - python-pip
+...
