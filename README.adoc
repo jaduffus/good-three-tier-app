@@ -1,0 +1,12 @@
+== Overview
+
+=== Setup
+
+. Export and env var GUID set to your guid
++
+[source,bash]
+----
+export GUID=abcd
+----
++
+. Edit `ssh.cfg` updating the 2 lines referencing your GUID
